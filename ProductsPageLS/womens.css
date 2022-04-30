@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+#womensproduct{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 20px 10px;
+}
+
+
+img{
+    width: 100%;
+}
+p{
+    font-size: 15px;
+
+}
